@@ -11,11 +11,11 @@ body {
   width: 100vw;
 }
 
-.body-container {
+/* .body-container {
   width: 1110px;
   margin: 0 auto;
   position: relative;
-}
+} */
 
 .header {
   width: 1110px;
@@ -99,6 +99,8 @@ body {
   top: 80px;
   right: 100px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .premium-eq-heading {
@@ -120,19 +122,33 @@ body {
   display: flex;
   height: 120px;
   width: 262px;
+  border: 2px solid black;
 }
 
 .price {
-  position: absolute;
-  left: 45px;
-  bottom: 200px;
+  border: 2px solid blue;
+  margin-bottom: 10px;
+  padding: 0 0 0 45px;
+}
+
+.span-container {
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
 }
 .price-per-month {
-  position: absolute;
-  left: 110px;
-  bottom: 225px;
   font-size: 20px;
   line-height: 34px;
+}
+
+.buttons {
+  border: 2px solid turquoise;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ios-download-button {
@@ -144,8 +160,12 @@ body {
   font-weight: bold;
   background-color: #191823;
   color: #fcfaf9;
-  position: absolute;
-  left: 45px;
+  cursor: pointer;
+}
+
+.ios-download-button:hover {
+  background-color: #66e2dc;
+  width: 500px;
 }
 
 .android-download-button {
@@ -157,52 +177,50 @@ body {
   font-size: 20px;
   background-color: #fcfaf9;
   color: #191826;
-  position: absolute;
-  left: 45px;
-  bottom: 10px;
+}
+
+.android-download-button:hover {
+  cursor: pointer;
+  background-color: #ffb964;
 }
 
 .footer {
-  border: 2px solid red;
   height: 79px;
   width: 1110px;
-  position: relative;
+  border: 2px solid turquoise;
+  /* position: relative; */
 }
 .equalizer-footer {
   display: flex;
-  /* border: 2px solid pink; */
   height: 79px;
   width: 250px;
-  position: absolute;
+  /* position: absolute; */
   top: 140px;
   font-size: 30px;
 }
 
 .footer-text {
   padding-left: 100px;
-  /* border: 2px solid orangered; */
   width: 380px;
   font-size: 16px;
   line-height: 26px;
-  position: absolute;
+  /* position: absolute; */
   top: 160px;
   left: 190px;
 }
 
 .social-media-tags {
-  position: absolute;
+  /* position: absolute; */
   top: 180px;
   left: 500px;
   display: flex;
   justify-content: flex-end;
-  /* border: solid 2px greenyellow; */
   padding: 15px;
   width: 600px;
 }
 
 .sm-logo {
   padding: 7px;
-  /* border: solid 2px turquoise; */
   height: 20px;
   width: 20px;
 }

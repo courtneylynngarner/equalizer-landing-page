@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-image: url("./assets/bg-main-desktop.png");
+  background-position: top -250px left -300px;
+  height: 1800px;
+  width: 100vw;
+}
+
+.body-container {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  width: 1110px;
+}
+.equalizer-heading {
+  font-size: 30px;
+  line-height: 52px;
+  width: 1110px;
+  height: 52px;
+  padding-top: 20px;
+}
+
+.right-header-image {
+  position: absolute;
+  height: 426px;
+  width: 274px;
+  top: 0;
+  left: 1000px;
+}
+
+.description-box {
+  width: 1110px;
+}
+
+.description-heading {
+  font-size: 88px;
+  margin: 0;
+  line-height: 88px;
+  letter-spacing: -1;
+  padding-top: 70px;
+  height: 176px;
+  width: 1015px;
+}
+
+.description-text {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 34px;
+  padding-top: 25px;
+  padding-right: 240px;
+  /* border: 2px solid pink; */
+  padding-bottom: 300px;
+}
+
+.page-center {
+  width: 100%;
+  height: 600px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  z-index: -10;
+  display: flex;
+  position: relative;
+}
+
+.app-picture {
+  height: 642px;
+  width: 312px;
+  position: absolute;
+  left: 95px;
+  bottom: 170px;
+  z-index: 100;
+}
+
+.center-page-design {
+  height: 468px;
+  width: 312px;
+  position: absolute;
+  left: 329px;
+  bottom: 200px;
+}
+.premium-eq-box {
+  border: solid 2px #fa7453;
+  background-color: #fa7453;
+  border-radius: 10px;
+  height: 625px;
+  width: 446px;
+  z-index: 10;
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  margin: 0 auto;
+}
+
+.premium-eq-heading {
+  height: 52px;
+  width: 333px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+.premium-eq-text {
+  height: 170px;
+  width: 333px;
+  font-size: 20px;
+  line-height: 34px;
+  padding-left: 45px;
+  font-style: normal;
+}
+
+.premium-eq-pricing {
+  display: flex;
+  height: 120px;
+  width: 262px;
+}
+
+.price {
+  position: absolute;
+  left: 45px;
+  bottom: 200px;
+}
+.price-per-month {
+  position: absolute;
+  left: 110px;
+  bottom: 225px;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.ios-download-button {
+  height: 61px;
+  width: 333px;
+  border: 1px solid #191823;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #191823;
+  color: #fcfaf9;
+  position: absolute;
+  left: 45px;
+}
+
+.android-download-button {
+  height: 61px;
+  width: 333px;
+  border: #fcfaf9;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fcfaf9;
+  color: #191826;
+  position: absolute;
+  left: 45px;
+  bottom: 10px;
+}
+
+.footer {
+  border: 2px solid red;
+  height: 79px;
+  width: 1110px;
+  position: relative;
+}
+.equalizer-footer {
+  display: flex;
+  /* border: 2px solid pink; */
+  height: 79px;
+  width: 250px;
+  position: absolute;
+  top: 140px;
+  font-size: 30px;
+}
+
+.footer-text {
+  padding-left: 100px;
+  /* border: 2px solid orangered; */
+  width: 380px;
+  font-size: 16px;
+  line-height: 26px;
+  position: absolute;
+  top: 160px;
+  left: 190px;
+}
+
+.social-media-tags {
+  position: absolute;
+  top: 180px;
+  left: 500px;
+  display: flex;
+  justify-content: flex-end;
+  /* border: solid 2px greenyellow; */
+  padding: 15px;
+  width: 600px;
+}
+
+.sm-logo {
+  padding: 7px;
+  /* border: solid 2px turquoise; */
+  height: 20px;
+  width: 20px;
+}
